@@ -1,4 +1,4 @@
-Worked Excercises from _The C Programming Language_, by Brian W. Kernignham and Dennis M. Ritchie
+ Brian W. Kernignham ve Dennis M. Ritchie tarafından yazılan _C Programlama Dili_ adlı kitaptan Çalışan Egzersizler
 =======
 
 Çeviri ve düzenleme: Supika Suzuki
@@ -26,7 +26,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 1-08 - countchar.c:  Count blanks, tabs, and new lines from stdin
 * 1-09 - singleblank.c:  Replace one or more blanks with a single blank
 * 1-10 - showhiddens.c:  Replaces tabs, backspaces, and backslashes by their escape characters
-* 1-11 - countwords.c:  Counts the number of words
+* 1-11 - countwords.c:  Kelime miktarını sayar
 * 1-12 - wordperline.c:  Outputs its input one word per time
 * 1-13 - wordhistohori.c:  Horizontally-oriented histogram of the number of words
 *      - wordhistovert.c:  Vertically-oriented histogram of the number of words
