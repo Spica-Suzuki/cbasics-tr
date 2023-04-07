@@ -1,24 +1,26 @@
 Worked Excercises from _The C Programming Language_, by Brian W. Kernignham and Dennis M. Ritchie
 =======
 
-This repository contains solutions to the examples presented in the classic book
-[_The C Programming Language_](https://en.wikipedia.org/wiki/The_C_Programming_Language), by [Brian W. Kerningham](https://en.wikipedia.org/wiki/Brian_Kernighan) and [Dennis M. Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie).  In many cases they
-have been written to utilize [C99](https://en.wikipedia.org/wiki/C99) features. Solutions for any given chapter attempt to only use featured introduced up to that point in
-the book.
+Çeviri ve düzenleme: Supika Suzuki
 
-Kernighan and Ritchie The C Programming Language Code Examples
+Bu depo [Brian W. Kerningham](https://en.wikipedia.org/wiki/Brian_Kernighan) ve [Dennis M. Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) tarafından yazılan klasik [_C Programlama Dili_](https://en.wikipedia.org/wiki/The_C_Programming_Language) adlı kitapta sunulan örneklerin çözümlerini içerir. Çoğu durumda [C99'un](https://en.wikipedia.org/wiki/C99) özellikleirnden faydalanmak için yazılmıştır. Verilen her bölüm için olan çözümler,
+kitapta yalnızca o zamana kadar tanıtılan özellikleir kullanmaya çalışır.
 
-### Cross-Platform Testing
+Kernighan ve Ritchie C Programlama Dili Kodu Örnekleri 
+
+### Çapraz-Platform Testleri
 
 So far, the code in this repository has only been complied and tested on Apple OS X El Capitan v10.11 using the clang compiler [Apple LLVM version 7.3.0 (clang-703.0.31)].  Additionally, I utilized the 'splint' linter (v3.1.2).  If you want to compile these without splint, the Makefiles will need to be modified accordingly.
 
-### Chapter 1 - "A Tutorial Introduction"
+Çevirmen notu: Burayı kendi bilgisayarımda (arch linux x64, gcc) ile test ettikten sonra değiştireceğim. Bu sebeple şimdilik dokunmuyorum.
 
-* 1-01 - helloworld.c:  Hello World
-* 1-02 - escapechars.c:  All escape characters
-* 1-03 - ftoc.c:  Fahrenheit-Celsius
-* 1-04 - ctof.c:  Celsius-Fahrenheit
-* 1-05 - ftoc-reverse.c:  Fahrenheit-Celsius in Reverse
+### Bölüm 1 - "Başlangıç için bir rehber"
+
+* 1-01 - helloworld.c:  merhaba dünya
+* 1-02 - escapechars.c:  Bütün kaçış karakterleri
+* 1-03 - ftoc.c:  Fahrenhayt-Santigrat
+* 1-04 - ctof.c:  Santigrat-Fahrenhayt
+* 1-05 - ftoc-reverse.c:  fahrenhayt-santigrat in Reverse
 * 1-06 - eofvalue.c:  Determine the value of EOF returned by getchar() from stdin
 * 1-07 - printeof.c:  Print the value of EOF directly
 * 1-08 - countchar.c:  Count blanks, tabs, and new lines from stdin
@@ -41,7 +43,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 1-23 - nocomment.c:  Removes all comments from a C program
 * 1-24 - minilint.c:  Performs rudementary syntax checks on a C program
 
-### Chapter 2 - "Types, Operators, and Expressions"
+### Bölüm 2 - "Tipler, Operatörler, ve İfadeler"
 
 * 2-01 - typelimits.c:  Prints the ranges of each of the numeric types
 * 2-02 - equivloop.c:  For-loop equivalent to longestline without using logical operators
@@ -54,7 +56,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 2-09 - fastbitcount.c:  Implements a faster bitcount() using a two's complement property
 * 2-10 - tolower.c:  Implements a lower() using a trinary conditional
 
-### Chapter 3 - "Control Flow"
+### Bölüm 3 - "Akış Kontrolü"
 
 * 3-01 - binsearch.c:  Implements a binary search with only one test inside the main loop
 * 3-02 - escape.c:  Tools to handle escape characters (bi-directionally)
@@ -63,7 +65,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 3-05 - itob.c:  Implements itob() that converst a number to a string of a particular base
 * 3-06 - itoaw.c:  Implements itoaw() that cconvers number to string of a minimum width
 
-### Chapter 4 - "Functions and Program Structure"
+### Bölüm 4 - "Fonksiyonlar ve Program Yapısı"
 
 * 4-01 - strrindex.c:  Returns the position of the rightmost occurance of text in a string
 * 4-02 - atof.c:  Implements atof() string to double converter with scientific notation support
@@ -80,7 +82,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 4-13 - reverserecursive.c:  A recursive implementation of reverse()
 * 4-14 - swapmacro.c:  A version of reverse() that uses a macro for swaping two values
 
-### Chapter 5 - "Pointers and Arrays"
+### Bölüm 5 - "İşaretçiler ve Dizinler"
 
 * 5-01 - getint.c:  Implements getint() that returns an integer (w/limit checks)
 * 5-02 - getfloat.c:  Implements getfloat() that returns a floating point
@@ -124,7 +126,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 5-19 - undcl.c:  Converts (sort of) natural language into a C language pointer declaration
 * 5-20 - dcl2.c:  Extends dcl.c to support function argument types, qualifiers like const, etc
 
-### Chapter 6 - "Structures"
+### Bölüm 6 - "Yapılar"
 
 * 6-01 - getword.c:  Gets next key word or character handling underscore, string constants, comments, and preprocessor control lines
 * 6-02 - getvars.c:  Prints variable names in a C program that are identical in the first 'X' characters (6 by default)
@@ -133,7 +135,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 6-05 - tablookup.c:  Implements a hash table based table look-up set of functions
 * 6-06 - define.c:  Simple '#define' pre-processor
 
-### Chapter 7 - "Input and Output"
+### Bölüm 7 - "Girdi ve Çıktı"
 
 * 7-01 - chngcase.c:  Transforms input to all upper or lower case based upon name of program ('lower' or 'upper')
 * 7-02 - print.c:  Prints a file with arbitrary contents in a reasonable way
@@ -144,7 +146,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 7-07 - minfind.c:  Searches files lines either matching, or not matching, a pattern optional line numbers
 * 7-08 - fprint.c:  Prints a set of files with header, footer, page breaks, and page count
 
-### Chapter 8 - "The UNIX System Interface"
+### Bölüm 8 - "The UNIX System Interface"
 
 * 8-01  A minimal impact of cat which concatinates files using low-level OS calls
   * mincat.c:  First version of mincat that uses low-level OS calls (c.f. sections 8.2, 8.3)
@@ -166,7 +168,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 * 8-07 - calloc2.c:  Adds some error checking to malloc() routines
 * 8-08 - bfree.c:  Adds bfree() to malloc()
 
-##Extras
+##Ekstralar
 
 In many cases these are programs outlined in K&R which are useful or interesting but were not carried forward into an exercise. The other cases are test programs or experiments.
 
@@ -181,7 +183,7 @@ In many cases these are programs outlined in K&R which are useful or interesting
 * testupcase.c:  Tests a technique to convert uppercase ASCII letters to lowercase
 * wordxrefstem.c:  An alternative implementation of wordxref.c (6-03) that leverages Martin Porter's stemming algorithm
 
-##Test Files
+##Test Dosyaları
 
 The following test data files are provided to support manually testing the exercises. Specifically, the ones that draw from standard input can be manually tested with these.
 
@@ -210,13 +212,13 @@ The following test data files are provided to support manually testing the exerc
 * words.txt - Some words used to test wordxref.c punctuation handling
 * zero.txt - A totally empty file (no data)
 
-##Style
+##Stil
 
 See *[STYLE.md](https://github.com/ptdecker/cbasics/blob/master/STYLE.md)* for notes on overall style and approach to the code
 
-##License
+##Lisans
 
-These solutions are copyright under the terms of the GNU GENERAL PUBLIC LICENSE v3 (see LICENSE) with the following exceptions:
+Bu çözümler GNU Genel Kamu Lisansı V3 (bkz: LICENSE) ile lisanslıdır ancak şunlar hariç:
 
 * While not at all specified by the exercises, in the extras is included an implementation of the word cross-reference program from exercise 6-03 that also stems the words.  It utilizes an imlementation of a Porter stemmer created by Martin Porter. As stated on his web site, the implementations provided on his site are free of charge (freeware).
 
