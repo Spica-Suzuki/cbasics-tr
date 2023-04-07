@@ -1,14 +1,14 @@
-/* Exercise 1-1: Hello World
+/* Egzersiz 1-1: Merhaba Dünya
  *
- * "Run the "hello, world" program on your system. Experiment with leaving out
- *  parts of the program, to see what error messages you get."
+ * ""merhaba, dünya" Programını sistemin üzerinde yürüt. Hangi hata mesajlarını 
+ * " alacağını görmek için bazı yerlerini boz.
  */
 
-// Includes
+// İçer:
 
 #include <stdio.h>
 
-/* Main */
+/* Ana Fonksiyon: */
 
 int main(void) {
 
