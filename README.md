@@ -3,8 +3,8 @@
 
 Çeviri ve düzenleme: Supika Suzuki
 
-Bu depo [Brian W. Kerningham](https://en.wikipedia.org/wiki/Brian_Kernighan) ve [Dennis M. Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) tarafından yazılan klasik [_C Programlama Dili_](https://en.wikipedia.org/wiki/The_C_Programming_Language) adlı kitapta sunulan örneklerin çözümlerini içerir. Çoğu durumda [C99'un](https://en.wikipedia.org/wiki/C99) özellikleirnden faydalanmak için yazılmıştır. Verilen her bölüm için olan çözümler,
-kitapta yalnızca o zamana kadar tanıtılan özellikleir kullanmaya çalışır.
+Bu depo [Brian W. Kerningham](https://en.wikipedia.org/wiki/Brian_Kernighan) ve [Dennis M. Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) tarafından yazılan klasik [_C Programlama Dili_](https://en.wikipedia.org/wiki/The_C_Programming_Language) adlı kitapta sunulan örneklerin çözümlerini içerir. Çoğu durumda [C99'un](https://en.wikipedia.org/wiki/C99) özelliklerinden faydalanmak için yazılmıştır. Verilen her bölüm için olan çözümler,
+kitapta yalnızca o zamana kadar tanıtılan özellikleri kullanmaya çalışır.
 
 Kernighan ve Ritchie C Programlama Dili Kodu Örnekleri 
 
@@ -16,7 +16,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 
 ### Bölüm 1 - "Başlangıç için bir rehber"
 
-* 1-01 - helloworld.c:  merhaba dünya
+* 1-01 - helloworld.c:  Merhaba dünya
 * 1-02 - escapechars.c:  Bütün kaçış karakterleri
 * 1-03 - ftoc.c:  Fahrenhayt-Santigrat
 * 1-04 - ctof.c:  Santigrat-Fahrenhayt
@@ -34,7 +34,7 @@ So far, the code in this repository has only been complied and tested on Apple O
 *      - charhistovert.c:  Vertically-oriented histogram of the number of characters
 * 1-15 - ftoc-func.c:  Fahrenheit-Celsius Table (using a function)
 * 1-16 - longestline.c:  Print arbitrarily long lines
-* 1-17 - longlines.c:  Prints lines longer than 80 characters
+* 1-17 - longlines.c:  80 karakterden uzun satırları basar
 * 1-18 - cleantrailsnblanks.c:  Cleans out trailing blanks and tabs. Eliminates blank lines.
 * 1-19 - reverse.c:  Reverses all input one line at a time
 * 1-20 - detab.c:  Replace tabs with blank spaces
